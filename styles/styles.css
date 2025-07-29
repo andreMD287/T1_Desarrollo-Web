@@ -1,0 +1,60 @@
+/*selectores*/
+
+#indice {
+    text-align: center;
+    list-style-type: georgian;
+}
+
+ol{
+    text-align: center;
+}
+
+table {
+    
+}
+
+.small {
+    font-size: 14px;
+}
+
+.right {
+    text-align: right;
+}
+
+#top-songs {
+    font-style: italic;
+}
+
+/*Otros selectores*/
+
+.imag1{
+    float: left;
+    border-color: black;
+}
+
+.imag2{
+    float: right;
+    border-color: black;
+
+}
+
+.small.text-center {
+    line-height: 15px;
+}
+
+p.text-center {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+ul li{
+    list-style-type: square;
+    text-align: center;
+}
+
+#footer, #header{
+    background-color: rgb(14, 196, 187);
+}
