@@ -153,7 +153,7 @@ body {
 
 /* Índice de navegación */
 nav ul {
-  list-style: square;
+  list-style: none;
   padding-left: 0;
 }
 
@@ -198,14 +198,40 @@ ol li .numero {
   margin-right: 8px;
 }
 
-/* Estilo para listas no ordenadas con viñeta de color diferente */
-ul li {
-  list-style: none;
-  margin-bottom: 8px;
-}
+
 
 ul li .viñeta {
   color: #009900; /* Color de la viñeta */
   font-weight: bold;
   margin-right: 8px;
+}
+
+#indice-estudios ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+#indice-estudios ul ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+#indice-estudios ul ul ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+#indice-estudios li {
+  margin-bottom: 6px;
+}
+
+#indice-estudios a {
+  text-decoration: none;
+  color: #000;
+}
+
+#indice-estudios a:hover {
+  color: #c0392b;
+  text-decoration: underline;
 }
